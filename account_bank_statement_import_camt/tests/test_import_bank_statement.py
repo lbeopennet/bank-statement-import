@@ -6,13 +6,14 @@ import base64
 import difflib
 import pprint
 import tempfile
+import unittest
 
 from odoo.addons.account_bank_statement_import_camt.camt import CamtParser
 from odoo.tests.common import TransactionCase
 from odoo.tools.misc import file_open
 
 
-class TestParser(TransactionCase):
+class TestParser(unittest.TestCase):
     """Tests for the camt parser itself."""
     def setUp(self):
         super(TestParser, self).setUp()
