@@ -2,7 +2,7 @@
  'NL77ABNA0574908765',
  [{'balance_end_real': 15121.12,
    'balance_start': 15568.27,
-   'date': '2014-01-06T16:20:26.673Z',
+   'date': '2014-01-06',
    'name': '1234Test/1',
    'transactions': [{'account_number': 'NL46ABNA0499998748',
                      'amount': -754.25,
